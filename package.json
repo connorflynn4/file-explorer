@@ -1,0 +1,28 @@
+{
+  "name": "8.fileexplorer",
+  "version": "1.0.0",
+  "description": "pure node file explorer using bootstrap4",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "babel-watch app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/connorflynn4/file-explorer.git"
+  },
+  "author": "Connor Flynn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/connorflynn4/file-explorer/issues"
+  },
+  "homepage": "https://github.com/connorflynn4/file-explorer#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "nodemon": "^1.19.1"
+  }
+}
